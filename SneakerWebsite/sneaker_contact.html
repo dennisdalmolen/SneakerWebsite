@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Hype Sneakers</title>
+		<link rel="icon" href="images/icon.png" sizes="16x16" type="image/png">
+		<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+		<meta charset="UTF-8">
+		<meta name="author" content="Dennis Dalmolen">
+		<link rel="stylesheet" type="text/css" href="/sneaker_stylesheet.css">
+		<div class="nav">
+			<a class="active" href="/home">HOME</a>
+			<a href="/nieuw.html">NIEUW</a>
+			<a href="/sale.html">SALE</a>
+			<a href="/alles.html">ALLE ARTIKELEN</a>
+			<a href="/contact.html">CONTACT</a>
+			<input type="text" placeholder="Search..">
+		</div>
+		<div class="header">
+		</div>
+	</head>
+	<body>
+		<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+	</body>
+	<footer>
+		&copy; Dennis Dalmolen 2021
+	</footer>
+</html>
